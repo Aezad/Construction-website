@@ -1,0 +1,230 @@
+
+@media(max-width:950px){
+
+    .head-sec{
+        flex-wrap: wrap;
+    }
+    .head-sec .images-sec{
+        margin: 30px auto;
+    }
+
+    .about-section-wraper{
+        flex-wrap: wrap;
+    }
+
+    .about-images-sec {
+        margin: 30px auto;
+    }
+
+    .choose-sec-wraper{
+        
+        flex-wrap: wrap;
+    }
+    .choose-hadings{
+        margin: auto;
+    }
+    .choose-images{
+        margin: auto;
+    }
+    .service-cards .card-images .card-btn{
+        font-size: 20px;
+        padding: 6px 10px;
+    }
+
+    .content-main{
+        flex-direction: column;
+    }
+    .content-image-sec .cntnt-heading{
+        margin: auto;
+        max-width: 436.5px;
+        border-bottom: 2.2px solid #DEC2BA;
+    }
+    .content-image{
+        
+        margin: 20px auto;
+    }
+
+    .content-heading{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .content-heading .heading{
+        text-align: center;
+    }
+    .content-paragraph-sec{
+        margin: auto;
+    }
+
+    .section5-heading-wraper{
+        flex-direction: column;
+        padding: 76px 0;
+    }
+
+    .section5-heading h2{
+        max-width: 600px;
+        margin-bottom: 40px;
+    }
+    
+
+    .footer-service-sec{
+        flex-wrap: wrap;
+    }
+
+    .footer-service{
+        margin: 30px 0;
+    }
+
+    .f-icons{
+        gap: 60px;
+    }
+
+
+}
+
+@media(max-width:770px){
+
+    :root{
+        --h2:36px
+    }
+    .h2tag{
+        line-height: 59px;
+    }
+    
+    .ctc-btn{
+        display: none;
+    }
+
+    .navbar{
+        position: absolute;
+      
+        top: 90px;
+        right: 2%;
+        width: 0;
+        justify-content: center;
+        background-color: #e5cfc9;
+        z-index: 2;
+        color: white;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        transition: 0.8s;
+    }
+
+
+
+    .navbar.open{
+        
+        right: 2%;
+        width: 33%;
+    }
+
+    .togglebtn{
+        display: block;
+    }
+
+    .navbar ul{
+        flex-direction: column;
+        padding: inherit;
+    }
+
+    .black-btn{
+        font-size: 17px;
+    }
+
+    .white-btn{
+        font-size: 17px;
+    }
+
+    .service-cards {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+
+    .service-sec-wraper .service-headings{
+        flex-wrap: wrap;
+    }
+
+    .section5-heading h2{
+        font-size: 42px;
+    }
+
+    .f-icons{
+        gap: 50px;
+    }
+
+    .icon1 img{
+        width: 26px;
+    }
+}
+
+@media(max-width:500px){
+
+    :root{
+        --h2:32px;
+        --p:11.5px;
+    }
+
+    .h2tag{
+        line-height: 56px;
+    }
+
+    .black-btn{
+        font-size: 15px;
+    }
+
+    .white-btn{
+        font-size: 15px;
+    }
+
+
+    .footer-service .service-img-wraper{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .footer-logo{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .icon1 img{
+        width: 15px;
+    }
+
+    .f-icons{
+        gap: 30px;
+    }
+
+    .section5-heading h2 {
+        font-size: 39px;
+    }
+
+}
+
+@media(max-width:378px){
+
+    :root{
+        --h2:29px
+    }
+
+    .h2tag{
+        line-height: 50px;
+    }
+
+    .black-btn{
+        font-size: 11px;
+    }
+
+    .white-btn{
+        font-size: 11px;
+    }
+
+    .section5-heading h2 {
+        font-size: 33px;
+    }
+
+}
+
+
+
+
